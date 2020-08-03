@@ -1,0 +1,8 @@
+C:\Users\domen\Documents\GitHub\CommonLibrary\CommonLibrary\CommonLibrary\bin\Release\netcoreapp3.1\CommonLibrary.deps.json
+C:\Users\domen\Documents\GitHub\CommonLibrary\CommonLibrary\CommonLibrary\bin\Release\netcoreapp3.1\CommonLibrary.dll
+C:\Users\domen\Documents\GitHub\CommonLibrary\CommonLibrary\CommonLibrary\bin\Release\netcoreapp3.1\CommonLibrary.pdb
+C:\Users\domen\Documents\GitHub\CommonLibrary\CommonLibrary\CommonLibrary\obj\Release\netcoreapp3.1\CommonLibrary.AssemblyInfoInputs.cache
+C:\Users\domen\Documents\GitHub\CommonLibrary\CommonLibrary\CommonLibrary\obj\Release\netcoreapp3.1\CommonLibrary.AssemblyInfo.cs
+C:\Users\domen\Documents\GitHub\CommonLibrary\CommonLibrary\CommonLibrary\obj\Release\netcoreapp3.1\CommonLibrary.dll
+C:\Users\domen\Documents\GitHub\CommonLibrary\CommonLibrary\CommonLibrary\obj\Release\netcoreapp3.1\CommonLibrary.pdb
+C:\Users\domen\Documents\GitHub\CommonLibrary\CommonLibrary\CommonLibrary\obj\Release\netcoreapp3.1\CommonLibrary.csproj.CoreCompileInputs.cache

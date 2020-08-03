@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CommonLibrary": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\domen\\Documents\\GitHub\\RandomComplementGenerator\\RandomComplementGenerator\\bin\\Debug\\netcoreapp3.1\\RandomComplementGenerator.exe"
+    }
+  }
+}

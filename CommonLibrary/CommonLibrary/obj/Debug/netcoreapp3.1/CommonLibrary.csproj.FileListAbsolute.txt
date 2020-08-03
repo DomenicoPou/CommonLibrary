@@ -1,0 +1,9 @@
+C:\Users\domen\Documents\GitHub\CommonLibrary\CommonLibrary\CommonLibrary\bin\Debug\netcoreapp3.1\CommonLibrary.deps.json
+C:\Users\domen\Documents\GitHub\CommonLibrary\CommonLibrary\CommonLibrary\bin\Debug\netcoreapp3.1\CommonLibrary.dll
+C:\Users\domen\Documents\GitHub\CommonLibrary\CommonLibrary\CommonLibrary\bin\Debug\netcoreapp3.1\CommonLibrary.pdb
+C:\Users\domen\Documents\GitHub\CommonLibrary\CommonLibrary\CommonLibrary\obj\Debug\netcoreapp3.1\CommonLibrary.csprojAssemblyReference.cache
+C:\Users\domen\Documents\GitHub\CommonLibrary\CommonLibrary\CommonLibrary\obj\Debug\netcoreapp3.1\CommonLibrary.AssemblyInfoInputs.cache
+C:\Users\domen\Documents\GitHub\CommonLibrary\CommonLibrary\CommonLibrary\obj\Debug\netcoreapp3.1\CommonLibrary.AssemblyInfo.cs
+C:\Users\domen\Documents\GitHub\CommonLibrary\CommonLibrary\CommonLibrary\obj\Debug\netcoreapp3.1\CommonLibrary.csproj.CoreCompileInputs.cache
+C:\Users\domen\Documents\GitHub\CommonLibrary\CommonLibrary\CommonLibrary\obj\Debug\netcoreapp3.1\CommonLibrary.dll
+C:\Users\domen\Documents\GitHub\CommonLibrary\CommonLibrary\CommonLibrary\obj\Debug\netcoreapp3.1\CommonLibrary.pdb

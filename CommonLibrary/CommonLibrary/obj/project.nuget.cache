@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8DbKkRLxzsBN8J0CqfsE3hn916RMuk+uKbRkz+dQIP+mMXlisTDMXt/Eoj9pzkGkJrslilKlffrrMPC0m9arpg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\domen\\Documents\\GitHub\\CommonLibrary\\CommonLibrary\\CommonLibrary\\CommonLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\domen\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
