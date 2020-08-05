@@ -6,27 +6,38 @@ using System.Windows;
 
 namespace CommonLibrary.Handlers
 {
-    public static class ConfigurationHandler
+    public static class ConfigurationHandler <T>
     {
         // T will be the main configuartion class
         private static string configurationFolderName = "Config";
 
-        private static string GetConfigFile<T>()
+        static ConfigurationHandler()
+        {
+            SetupConfiguration();
+        }
+
+        private static void SetupConfiguration()
+        {
+            string configurationName = GetConfigFile();
+            if (!File.Exists(configurationName))
+            {
+                WriteConfig(default(T));
+            }
+        }
+
+        private static string GetConfigFile()
         {
             // Return the configuration file
             return $@"{AppDomain.CurrentDomain.BaseDirectory}/{configurationFolderName}/{typeof(T).Name}.json";
         }
 
-        public static T ReadConfig<T>()
+        public static T ReadConfig()
         {
             // Get the congfiguration File
-            string configFile = GetConfigFile<T>();
+            string configFile = GetConfigFile();
             
-            // Create the file if it doesn't exist
-            FileHandler.CreateFile(configFile);
-
             // Deserialize Json to Object and Return It
-            using (var fileStream = new FileStream(configFile, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+            using (var fileStream = new FileStream(configFile, FileMode.Open, FileAccess.Read, FileShare.Read))
             using (var textReader = new StreamReader(fileStream))
             {
                 string content = textReader.ReadToEnd();
@@ -34,13 +45,10 @@ namespace CommonLibrary.Handlers
             }
         }
 
-        public static void WriteConfig<T>(T configurationObject)
+        public static void WriteConfig(T configurationObject)
         {
             // Grab the configuration file
-            string configFile = GetConfigFile<T>();
-            
-            // Create the file if it doesn't exist
-            FileHandler.CreateFile(configFile);
+            string configFile = GetConfigFile();
 
             // Serialize the object to JSON indented
             string fileContent = JsonConvert.SerializeObject(configurationObject, Formatting.Indented);

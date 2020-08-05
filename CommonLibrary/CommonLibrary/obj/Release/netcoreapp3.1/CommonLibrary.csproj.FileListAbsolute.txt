@@ -6,3 +6,4 @@ C:\Users\domen\Documents\GitHub\CommonLibrary\CommonLibrary\CommonLibrary\obj\Re
 C:\Users\domen\Documents\GitHub\CommonLibrary\CommonLibrary\CommonLibrary\obj\Release\netcoreapp3.1\CommonLibrary.dll
 C:\Users\domen\Documents\GitHub\CommonLibrary\CommonLibrary\CommonLibrary\obj\Release\netcoreapp3.1\CommonLibrary.pdb
 C:\Users\domen\Documents\GitHub\CommonLibrary\CommonLibrary\CommonLibrary\obj\Release\netcoreapp3.1\CommonLibrary.csproj.CoreCompileInputs.cache
+C:\Users\domen\Documents\GitHub\CommonLibrary\CommonLibrary\CommonLibrary\obj\Release\netcoreapp3.1\CommonLibrary.csprojAssemblyReference.cache
