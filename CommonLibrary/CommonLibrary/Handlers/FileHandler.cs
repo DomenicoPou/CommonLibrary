@@ -28,5 +28,18 @@ namespace CommonLibrary.Handlers
                 File.Create(fileName);
             }
         }
+
+        /// <summary>
+        /// Creates the directory given, if it doesn't exist
+        /// </summary>
+        /// <param name="directory">The path being created</param>
+        public static void CreateDirectory(string directory)
+        {
+            // Create the directory if it doesn't exist
+            if (!Directory.Exists(Path.GetDirectoryName(directory)))
+            {
+                Directory.CreateDirectory(Path.GetDirectoryName(directory));
+            }
+        }
     }
 }
