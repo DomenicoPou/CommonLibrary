@@ -26,6 +26,21 @@ namespace CommonLibrary.Handlers
         }
 
         /// <summary>
+        /// Return the embedded resource as its string contents
+        /// </summary>
+        /// <param name="filename">The files name</param>
+        /// <returns>The embedded resource as a string</returns>
+        public static string Read(Assembly assembly, string filename)
+        {
+            // Obtain the stream and obtain the contents
+            StreamReader streamReader = GetEmbeddedStream(assembly, filename);
+            string dataString = streamReader.ReadToEnd();
+            streamReader.Close();
+            // Return the datastring
+            return dataString;
+        }
+
+        /// <summary>
         /// Return the embedded resource as an object via assembly and filename
         /// </summary>
         /// <typeparam name="T">The object being derialized</typeparam>
