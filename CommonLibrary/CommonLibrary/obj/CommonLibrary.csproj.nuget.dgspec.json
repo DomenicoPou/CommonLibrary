@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\domen\\Documents\\GitHub\\CommonLibrary\\CommonLibrary\\CommonLibrary\\CommonLibrary.csproj": {}
+    "C:\\Users\\domen\\Documents\\Github\\CommonLibrary\\CommonLibrary\\CommonLibrary\\CommonLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\domen\\Documents\\GitHub\\CommonLibrary\\CommonLibrary\\CommonLibrary\\CommonLibrary.csproj": {
+    "C:\\Users\\domen\\Documents\\Github\\CommonLibrary\\CommonLibrary\\CommonLibrary\\CommonLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\domen\\Documents\\GitHub\\CommonLibrary\\CommonLibrary\\CommonLibrary\\CommonLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\domen\\Documents\\Github\\CommonLibrary\\CommonLibrary\\CommonLibrary\\CommonLibrary.csproj",
         "projectName": "CommonLibrary",
-        "projectPath": "C:\\Users\\domen\\Documents\\GitHub\\CommonLibrary\\CommonLibrary\\CommonLibrary\\CommonLibrary.csproj",
+        "projectPath": "C:\\Users\\domen\\Documents\\Github\\CommonLibrary\\CommonLibrary\\CommonLibrary\\CommonLibrary.csproj",
         "packagesPath": "C:\\Users\\domen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\domen\\Documents\\GitHub\\CommonLibrary\\CommonLibrary\\CommonLibrary\\obj\\",
+        "outputPath": "C:\\Users\\domen\\Documents\\Github\\CommonLibrary\\CommonLibrary\\CommonLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\domen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -37,7 +38,12 @@
       },
       "frameworks": {
         "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.10, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
@@ -58,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.7.20366.6\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

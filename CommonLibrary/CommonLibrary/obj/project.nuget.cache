@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "8ybcb20dyCwHfUF1Ut8TyIYlBW/rWMk6ifBRGxU4+oBeGCkFAKJz8alw2GEPPEBadmYLDkviFZDuj9yOl9vi6A==",
+  "dgSpecHash": "DFolyOAqB9PcWFIW0jVqkOzji55r+ni2PVEAs6tCBrNPshl5SAamZzbj5JyMRB4O6ZcnrOUXVJ+zNyzpnRiW8w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\domen\\Documents\\GitHub\\CommonLibrary\\CommonLibrary\\CommonLibrary\\CommonLibrary.csproj",
+  "projectFilePath": "C:\\Users\\domen\\Documents\\Github\\CommonLibrary\\CommonLibrary\\CommonLibrary\\CommonLibrary.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\domen\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\domen\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\domen\\.nuget\\packages\\nlog\\4.7.10\\nlog.4.7.10.nupkg.sha512"
   ],
   "logs": []
 }
