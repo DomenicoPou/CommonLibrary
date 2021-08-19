@@ -20,7 +20,6 @@ namespace CommonLibrary.Class
 
         public void Dispose()
         {
-            Console.WriteLine("Ahh");
             stopWatch.Stop();
             action(stopWatch.Elapsed);
         }
